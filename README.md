@@ -11,8 +11,6 @@ This project aims to develop a **real-time digital banking platform** leveraging
 - **Admin Dashboard**: Manage users, deposits, withdrawals, and queries.
 - **Security & Compliance**: Data encryption, fraud detection, and GDPR compliance.
 
-## System Architecture
-![System Architecture](assets/system_architecture.png)
 
 ## Tech Stack
 ### Frontend:
