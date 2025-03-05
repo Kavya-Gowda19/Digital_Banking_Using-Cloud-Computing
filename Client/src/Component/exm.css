@@ -1,0 +1,97 @@
+/* Form Container Styling */
+.form-container {
+    margin: 20px auto;
+    width: 80%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Shared style for all input fields and Account Type dropdown */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="file"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  /* Change border color on focus for input fields and dropdown */
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  input[type="number"]:focus,
+  input[type="file"]:focus,
+  input[type="date"]:focus,
+  select:focus {
+    border-color: #007bff;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional styling for the options within the dropdown */
+  select option {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .back-button {
+    background-color: #f0f0f0;
+    border: none;
+    color: #333;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  .back-button:hover {
+    background-color: #e0e0e0;
+  }
+
+  /* Center align the <h2> tag */
+h2 {
+    text-align: center; /* Centers the text horizontally */
+    font-size: 24px;    /* Adjust the font size as needed */
+    font-weight: bold;  /* Makes the font bold */
+    margin-top: 20px;   /* Adds some top margin */
+    margin-bottom: 20px; /* Adds some bottom margin */
+    color: #333;        /* Change the color if needed */
+  }
+  
+  

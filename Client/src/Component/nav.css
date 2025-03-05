@@ -1,0 +1,27 @@
+.logout-btn {
+    background-color: #f44336; /* Red for Logout */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-btn {
+    background-color: #4caf50; /* Green for Login */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-btn:hover, .login-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+  .logout-btn span, .login-btn span {
+    margin-left: 8px;
+  }
+  
